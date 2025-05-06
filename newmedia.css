@@ -1,0 +1,90 @@
+/* ===== Large Tablets and Small Laptops (≤ 1200px) ===== */
+@media screen and (max-width: 1200px) {
+  .nav-links {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: block;
+  }
+
+  #profile {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .section__pic-container {
+    margin-top: 2rem;
+  }
+
+  section {
+    padding: 80px 5%;
+  }
+
+  .btn-container {
+    flex-wrap: wrap;
+  }
+}
+
+/* ===== Tablets and Large Phones (≤ 768px) ===== */
+@media screen and (max-width: 768px) {
+  .section__text h1 {
+    font-size: 2.2rem;
+  }
+
+  .section__text p {
+    font-size: 1rem;
+  }
+
+  .section__pic-container img {
+    max-width: 250px;
+  }
+
+  .btn {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.95rem;
+  }
+
+  .menu-links {
+    right: 5%;
+    width: 90%;
+  }
+}
+
+/* ===== Small Phones (≤ 480px) ===== */
+@media screen and (max-width: 480px) {
+  nav {
+    padding: 1rem 5%;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .section__text h1 {
+    font-size: 1.8rem;
+  }
+
+  .section__text p {
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-links a {
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+
+  .section__pic-container img {
+    max-width: 200px;
+  }
+
+  footer {
+    font-size: 0.9rem;
+  }
+}
+
